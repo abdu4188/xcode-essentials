@@ -14,6 +14,10 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    func addNumbers(x: Int, y: Int) -> Int {
+        return x+y
+    }
 
     override var representedObject: Any? {
         didSet {
